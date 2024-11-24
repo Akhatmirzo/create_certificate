@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@layer utilities {
+  .border-image {
+    border: 45px solid;
+    border-image-source: url("./assets/certificate_border_img.png");
+    border-image-slice: 30;
+  }
+}
